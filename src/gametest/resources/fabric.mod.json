@@ -1,0 +1,15 @@
+{
+	"schemaVersion": 1,
+	"id": "mcgps-test",
+	"version": "1.0.0",
+	"name": "MC Run test",
+	"environment": "client",
+	"entrypoints": {
+		"fabric-client-gametest": [
+			"dev.mcgps.test.McGpsClientTest"
+		]
+	},
+	"depends": {
+		"mcgps": "*"
+	}
+}
